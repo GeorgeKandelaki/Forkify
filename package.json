@@ -1,0 +1,20 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "rm -rf .parcel-cache && parcel index.html",
+    "build": "rm -rf .parcel-cache && parcel build index.html"
+  },
+  "author": "George",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
